@@ -33,7 +33,7 @@ public class Ihm {
                 System.out.println("Le fichier n'existe pas.");
             }
         } catch (IOException e) {
-            System.err.println("Err de fichier: " + e.getMessage());
+            System.err.println("Erreur de fichier: " + e.getMessage());
         }
     }
 }
